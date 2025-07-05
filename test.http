@@ -1,11 +1,14 @@
+GET http://localhost:3000/api/categories
+
+
 POST http://localhost:3000/api/users
 Content-Type: application/json
 Accept: application/json
 
 {
-  "username" : "khannedy",
+  "username" : "hauzan",
   "password" : "rahasia",
-  "name" : "Eko Kurniawan"
+  "name" : "hauzan ganteng"
 }
 
 ###
@@ -15,7 +18,7 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "username" : "khannedy",
+  "username" : "hauzan",
   "password" : "rahasia"
 }
 
@@ -34,7 +37,7 @@ Accept: application/json
 Authorization: 19dfc22d-4545-45a9-9b36-ec0fc3fee291
 
 {
-  "name" : "Eko Kurniawan Khannedy"
+  "name" : "hauzan ganteng"
 }
 
 ###
@@ -80,9 +83,9 @@ Accept: application/json
 Authorization: 19dfc22d-4545-45a9-9b36-ec0fc3fee291
 
 {
-  "first_name": "Rully",
-  "last_name": "Nugraha",
-  "email": "rully@pzn.com",
+  "first_name": "hauzan",
+  "last_name": "ganteng",
+  "email": "hauzan@ganteng.com",
   "phone": "324234234234"
 }
 
